@@ -1,0 +1,4 @@
+The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other. 
+
+The task is to print all solutions in N-Queen Problem.
+Each solution contains distinct board configurations of the N-queens’ placement, where the solutions are a permutation of [1,2,3..n] in increasing order, here the number in the ith place denotes that the ith-column queen is placed in the row with that number.

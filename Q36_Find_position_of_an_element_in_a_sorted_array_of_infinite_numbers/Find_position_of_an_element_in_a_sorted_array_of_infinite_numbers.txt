@@ -1,0 +1,1 @@
+Suppose you have a sorted array of infinite numbers, how would you search an element in the array?
