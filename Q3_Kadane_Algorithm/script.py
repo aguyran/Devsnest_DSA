@@ -1,6 +1,6 @@
 import random
 
-name='sort012_hidden_sample.txt'
+name='Q3_Kadane_Algorithm_hidden_sample.txt'
 f=open(name, 'w')
 total=50
 N=  1000
@@ -13,8 +13,8 @@ while(total):
   f.writelines("\n")
   s=""
   for i in range(0,number):
-    s += str(random.randint(0,2))+" "
+    s += str(random.randint(-100000,100000))+" "
 
   f.write(s[:-1])
   f.writelines("\n")
-  f.close()
+f.close()

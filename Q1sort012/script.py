@@ -2,7 +2,7 @@ import random
 
 name='sort012_hidden_sample.txt'
 f=open(name, 'w')
-total=50
+total=100
 N=  1000
 f.write(str(total))
 f.writelines("\n")
@@ -17,4 +17,4 @@ while(total):
 
   f.write(s[:-1])
   f.writelines("\n")
-  f.close()
+f.close()
