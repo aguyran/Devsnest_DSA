@@ -1,9 +1,9 @@
 import random
 
-name='sort012_hidden_sample.txt'
+name='Q05_Next_Permutation/Next_Permutation_hidden_sample.txt'
 f=open(name, 'w')
-total=100
-N=  1000
+total=50
+N=  100
 f.write(str(total))
 f.writelines("\n")
 while(total):
@@ -13,7 +13,7 @@ while(total):
   f.writelines("\n")
   s=""
   for i in range(0,number):
-    s += str(random.randint(0,2))+" "
+    s += str(random.randint(1,100))+" "
 
   f.write(s[:-1])
   f.writelines("\n")
