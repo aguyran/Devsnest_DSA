@@ -38,5 +38,5 @@ Expected Auxiliary Space: O(1)
 
 
 Constraints:
-1 <= N, M <= 5*104
-0 <= arr1i, arr2i <= 106
+1 <= N, M <= 5*10000
+0 <= arr1i, arr2i <= 1000000
