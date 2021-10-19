@@ -26,5 +26,5 @@ Expected Time Complxity : O(N)
 Expected Auxilliary Space : O(N)
 
 Constraints:
-1 ≤ N ≤ 106
-1 ≤ arr[i] ≤ 1012
+1 ≤ N ≤ 1000000
+1 ≤ arr[i] ≤ 1000000000000

@@ -18,3 +18,7 @@ d) For the input array [13, 7, 6, 12}, the next smaller elements for each elemen
    7       -->    6
    6       -->   -1
    12      -->   -1
+
+Constraints:
+1 ≤ N ≤ 1000
+1 ≤ arr[i] ≤ 1000

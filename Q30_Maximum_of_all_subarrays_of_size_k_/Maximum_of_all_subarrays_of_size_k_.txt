@@ -40,6 +40,6 @@ Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(k)
 
 Constraints:
-1 ≤ N ≤ 107
+1 ≤ N ≤ 10000000
 1 ≤ K ≤ N
-0 ≤ arr[i] ≤ 107
+0 ≤ arr[i] ≤ 10000000
