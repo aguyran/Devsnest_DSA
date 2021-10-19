@@ -7,3 +7,7 @@ Output : arr[] = {3, 2, 1}
 
 Input :  arr[] = {4, 5, 1, 2}
 Output : arr[] = {2, 1, 5, 4}
+
+Constraints:
+1 ≤ N ≤ 1000000
+1 ≤ A[i] ≤100000

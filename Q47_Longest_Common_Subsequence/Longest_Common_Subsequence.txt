@@ -26,4 +26,4 @@ Expected Time Complexity : O(|str1|*|str2|)
 Expected Auxiliary Space: O(|str1|*|str2|)
 
 Constraints:
-1<=size(str1),size(str2)<=103
+1<=size(str1),size(str2)<=1000
