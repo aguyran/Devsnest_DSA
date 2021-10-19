@@ -1,12 +1,11 @@
 import random
+name='/media/adhikram/Arka/Devsnest_DSA/Q02_Move_negetive/Q2_Move_negetive_hidden_sample'
 
-f=open('Q2_Move_negetive_hidden_sample.txt', 'w')
-total=50
+total=1
 N=  1000
-f.write(str(total))
-f.writelines("\n")
-while(total):
-  total-=1
+while(total<11):
+  f=open(name+str(total)+'.txt', 'w')
+  total+=1
   num = random.randint(1, N)
   f.write(str(num))
   f.writelines("\n")
@@ -17,4 +16,4 @@ while(total):
 
   f.write(s[:-1])
   f.writelines("\n")
-f.close()
+  f.close()

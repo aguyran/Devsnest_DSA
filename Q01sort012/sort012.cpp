@@ -1,4 +1,4 @@
-// LIVE AND LET OTHERS LIVE.
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -57,7 +57,7 @@ IOS;
 freopen("sort012_hidden_sample.txt","r",stdin);
 freopen("sort012_hidden_sample_out.txt","w",stdout);
 #endif
-multiple();
-// single();
+// multiple();
+single();
 
 }
