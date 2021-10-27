@@ -3,7 +3,7 @@ Given two sequences, find the length of longest subsequence present in both of t
 Example 1:
 
 Input:
-A = 6, B = 6
+A = , B = 6
 str1 = ABCDGH
 str2 = AEDFHR
 Output: 3
