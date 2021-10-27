@@ -37,5 +37,5 @@ Expected Auxilliary Space : O(N)
 
 
 Constraints:
-1 ≤ N ≤ 105
-0 ≤ start[i] < end[i] ≤ 105
+1 ≤ N ≤ 100000
+0 ≤ start[i] < end[i] ≤ 100000

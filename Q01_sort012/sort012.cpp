@@ -4,7 +4,7 @@ int main()
 {
   ifstream infile;
   ofstream outfile;
-  string s = "/media/adhikram/Arka/Devsnest_DSA/Q02_Move_negetive/Q02_Move_negetive_";
+  string s = "/media/adhikram/Arka/Devsnest_DSA/Q01_sort012/Q01_sort012_";
   for (int i = 1; i < 11; i++)
   {
     string p = s + to_string(i);
@@ -19,14 +19,7 @@ int main()
       infile >> v[i];
     }
 
-    int j = 0;
-    for (int i = 0; i < t; i++) {
-        if (v[i] < 0) {
-            if (i != j)
-                swap(v[i], v[j]);
-            j++;
-        }
-    }
+    sort(v.begin(), v.end());
     for (int i = 0; i < t; i++)
     {
       outfile << v[i] << " ";

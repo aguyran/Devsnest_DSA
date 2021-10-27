@@ -30,6 +30,6 @@ Expected Auxiliary Space: O(1)
 
 Constraints:
 1 ≤ T ≤ 100
-1 ≤ N ≤ 105
-1 ≤ Ai ≤ 109
+1 ≤ N ≤ 100000
+1 ≤ A[i] ≤ 1000000000
 1 ≤ M ≤ N
