@@ -27,7 +27,7 @@
 # path 
 import random
 
-name="Q27_Queue_Reversal_"
+name="Q28_Circular_Queue_"
 total=1
 N=[2,5,10,50,100,500,1000,5000,10000,50000,100000]
 # N=[1,5,10,20,30,40,60,70,80,90,100]
@@ -46,12 +46,12 @@ while(total<11):
 #   f.writelines(" ")
 #   f.write(str(number1))
   f.writelines("\n")
-  s=""
-  for i in range(0,number):
-    s += str(random.randint(1,N[total-1]))+" "
+#   s=""
+#   for i in range(0,number):
+#     s += str(random.randint(1,N[total-1]))+" "
 
-  f.write(s[:-1])
-  f.writelines("\n")
+#   f.write(s[:-1])
+#   f.writelines("\n")
   # s=""
   # for i in range(0,number1):
   #   s += str(random.randint(0,1000000))+" "
