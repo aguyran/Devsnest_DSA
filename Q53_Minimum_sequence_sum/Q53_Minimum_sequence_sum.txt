@@ -29,4 +29,4 @@ Expected Auxiliary Space: O(1)
 
 Constraints:
 1 ≤ N ≤ 10000000
-0 ≤ Arri ≤ 9
+0 ≤ Arr[i]≤ 9

@@ -19,7 +19,7 @@ int main()
       infile >> v[i];
     }
 
-    next_permutation(v.begin(), v.end());
+    sort(v.begin(), v.end());
     for (int i = 0; i < t; i++)
     {
       outfile << v[i] << " ";
