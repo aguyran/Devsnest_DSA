@@ -4,7 +4,7 @@ int main()
 {
   ifstream infile;
   ofstream outfile;
-  string s = "/media/adhikram/Arka/Devsnest_DSA/Q01_sort012/Q01_sort012_";
+  string s = "/home/wolfcreek/Devsnest_DSA/Q05_Next_Permutation/Q05Next_Permutation_";
   for (int i = 1; i < 11; i++)
   {
     string p = s + to_string(i);
@@ -19,7 +19,7 @@ int main()
       infile >> v[i];
     }
 
-    sort(v.begin(), v.end());
+    next_permutation(v.begin(), v.end());
     for (int i = 0; i < t; i++)
     {
       outfile << v[i] << " ";
